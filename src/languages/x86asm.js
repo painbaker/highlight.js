@@ -9,6 +9,7 @@ Category: assembler
 export default function(hljs) {
   return {
     name: 'Intel x86 Assembly',
+    aliases: ['nasm'],
     case_insensitive: true,
     keywords: {
       $pattern: '[.%]?' + hljs.IDENT_RE,
